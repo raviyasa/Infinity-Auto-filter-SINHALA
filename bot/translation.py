@@ -5,11 +5,11 @@
 class Translation(object):
     
     START_TEXT = """
-😍 Hai {} ,
+Hai 🖖🤟 {} කොම්ලා
 
 💡 Telegram Auto Filter Bot
 
-I am a filter bot with advanced features currenty workig for any group. මේක ADV AUTO FILTER හි සිංහල සංස්කරණයයි.
+I am a filter bot with advanced features currenty workig for any group. මේක @media_bot_updates හි සාඩම්බර ඉදිරිපත් කිරීමකි.
 
 
 🔅 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ:- @{}
@@ -48,7 +48,7 @@ I am a filter bot with advanced features currenty workig for any group. මේ�
             
             👉 <code>Status</code> - Button Will Shows The Stats Of Your Channel (Connect වෙලා තියෙන filter ගාන වගේ ඒව පෙන්න්නනවා)
             
-<b><a href="https://t.me/bots_infinity">©️ ɪɴғɪɴɪᴛʏ ʙᴏᴛs</a></b>
+<b><a href="https://t.me/media_bot_updates">Bᴏᴛ Sʜᴀᴅᴏᴡ ♾</a></b>
 """
     
     ABOUT_TEXT = """
@@ -61,11 +61,11 @@ I am a filter bot with advanced features currenty workig for any group. මේ�
 
 ○ sᴇʀᴠᴇʀ : ʜᴇʀᴏᴋᴜ 
 
-○ ᴠᴇʀsɪᴏɴ : 1.0.0
+○ ᴠᴇʀsɪᴏɴ : 2.0.0
 
 ○ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : 🔐
 
-○ ᴄʀᴇᴀᴛᴏʀ : [ᴅᴏᴄ ᴅx](https://t.me/dx_doc)
+○ ᴄʀᴇᴀᴛᴏʀ : [ʀᴀᴠɪᴅᴜ ʏᴀꜱᴀꜱ](https://t.me/darkz_hacker_devil)
 
-**[ɪɴғɪɴɪᴛʏ ʙᴏᴛs](https://t.me/bots_infinity)**
+**[Bᴏᴛ Sʜᴀᴅᴏᴡ ♾](https://t.me/media_bot_updates)**
 """
