@@ -143,7 +143,7 @@ async def cb_navg(bot, update: CallbackQuery):
     reply_markup = InlineKeyboardMarkup(temp_results)
 
 
-    text=f"**මෙන්න ඔයා හොයපු 👉 {query}                       @BOTS_Infinity**" ,
+    text=f"**මෙන්න ඔයා හොයපු 👉 {query}                       @media_bot_updates**" ,
         
     try:
         await update.message.edit(
@@ -246,7 +246,7 @@ async def cb_warn(bot, update: CallbackQuery):
     channel_id, channel_name, action = re.findall(r"warn\((.+)\)", query_data)[0].split("|", 2)
     
     if action == "connect":
-        text=f"<i>සුවර්ද මේ channel එකට connect කරන්න ඕනෙ කියල 😂</i> <code>{channel_name}</code><i>..???</i>\n"
+        text=f"<i>සුවර්ද මේ channel එකට connect කරන්න ඕනෙ කියල</i> <code>{channel_name}</code><i>..???</i>\n"
         text+=f"\n<i>රිසාල්ට් පෙන්නනකොට  </i><code>{channel_name}</code> <i>channel එකේ  එව්වත් පෙන්නන්නවා</i>..."
     
     elif action == "disconnect":
@@ -1364,7 +1364,7 @@ async def cb_pm_file(bot, update: CallbackQuery):
             ]
         ]
     
-    text=f"<i>මෙතනින් ඔයාට පුලුවන් බොට්ගෙන් ෆයිල් open වෙනවද නැත්තන් කෙලින්ම චැනල් එකෙන් open වෙනවද කියන එක හදන්න ....</i>"
+    text=f"<i>මෙතනින් ඔයාට පුලුවන් බොට්ගෙන් ෆයිල් open වෙනවද නැත්තන් කෙලින්ම චැනල් එකෙන් open වෙනවද කියන එක හදන්න ....@media_bot_updates</i>"
     
     reply_markup=InlineKeyboardMarkup(buttons)
     
@@ -1602,13 +1602,13 @@ async def cb_about(bot, update: CallbackQuery):
     text=f"<b><u>Bot's Status</u></b>\n"
     text+=f"\n<b>Bot's Uptime:</b> <code>{time_formatter(time.time() - start_uptime)}</code>\n"
     text+=f"\n<b>Bot Funtion:</b> <i>Auto Filter Files</i>\n"
-    text+=f"""\n<b>Bot Support:</b> <a href="https://t.me/BOTS_Infinity">©️ ɪɴғɪɴɪᴛʏ ʙᴏᴛs</a>\n"""
+    text+=f"""\n<b>Bot Support:</b> <a href="https://t.me/media_bot_updates">Bᴏᴛ Sʜᴀᴅᴏᴡ ♾</a>\n"""
 
     buttons = [
         [
             #InlineKeyboardButton
                 #(
-                    #"😊 DEVELOPER", url="https://t.me/BOTS_Infinity"
+                    #"😊 DEVELOPER", url="https://t.me/media_bot_updates"
                 #),
                 
             InlineKeyboardButton
@@ -1639,7 +1639,7 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-        InlineKeyboardButton("📫 SUPPORT", url="https://t.me/BOTS_Infinity"),
+        InlineKeyboardButton("📫 SUPPORT", url="https://t.me/media_bot_updates"),
         InlineKeyboardButton("📕 ABOUT", callback_data="about")
     ],[
         InlineKeyboardButton("💡 HELP", callback_data="help"),
