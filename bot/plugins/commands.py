@@ -39,7 +39,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '📫 SUPPORT', url="https://t.me/BOTS_Infinity"
+                                    '📫 SUPPORT', url="https://t.me/media_bot_updates"
                                 )
                         ]
                     ]
@@ -58,7 +58,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '📫 SUPPORT', url="https://t.me/BOTS_Infinity"
+                                    '📫 SUPPORT', url="https://t.me/media_bot_updates"
                                 )
                         ]
                     ]
@@ -77,7 +77,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '📫 SUPPORT', url="https://t.me/BOTS_Infinity"
+                                    '📫 SUPPORT', url="https://t.me/media_bot_updates"
                                 )
                         ]
                     ]
@@ -90,7 +90,7 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('📫 SUPPORT', url='https://t.me/BOTS_Infinity'),
+        InlineKeyboardButton('📫 SUPPORT', url='https://t.me/media_bot_updates'),
         InlineKeyboardButton('📕 ABOUT', callback_data="about")
     ],[
         InlineKeyboardButton('💡 HELP', callback_data="help"),
